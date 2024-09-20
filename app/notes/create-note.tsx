@@ -24,7 +24,7 @@ const CreateNote = () => {
     setTitle('');
     setContent('');
     router.refresh();
-  }
+  };
 
   return (
     <form onSubmit={addNote}>
